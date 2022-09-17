@@ -1,0 +1,40 @@
+/* Global Layout Set-up */
+* { 
+    box-sizing: content-box;
+  }
+.nav {
+    display: flex;
+    padding: 10px;
+}
+.nav li {
+    padding: 0px 75px 10px;
+    list-style-type: none;
+}
+.parent {
+    position: relative;
+    top: 0;
+    left: 0;
+}
+div .profile {
+    display: block;
+    position: absolute;
+  left: 20px;
+  top: 25px;
+  z-index: -1;
+  margin-left: auto;
+  position: relative;
+  margin-right: auto;
+  width: 30%;
+  border-radius: 400%;
+
+}
+.butterfly {
+    position: absolute;
+    left: -6px;
+    top: 0px;
+    z-index: -5;
+    width:780px;
+    height: 120px;
+    border: 15px solid #white;
+}
+
