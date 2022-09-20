@@ -1,0 +1,20 @@
+/* Global Layout Set-up */
+* {  
+    box-sizing: content-box;
+}
+body {
+    background-image: url(images/pinkimage.jpeg);
+}
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    padding: 10px 40px;
+    position: center;
+}
+.banner {
+   margin-top: 35px;
+}
