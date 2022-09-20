@@ -2,14 +2,15 @@
 * { 
     box-sizing: content-box;
   }
-.nav {
-    display: flex;
-    padding: 5px;
-}
-.nav li {
-    padding: 0px 160px 10px;
-    list-style-type: none;
-}
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+
 .parent {
     position: relative;
     top: 0;
