@@ -18,12 +18,53 @@ body {
    margin-top: 35px;
    margin-left: 20px;
 }
-.BioParagraph {
-    border-style: solid;
-    border-color: fuchsia;
-    width: 450px;
-    height: 400px;
+#demobox {
     margin: 20px;
-    background-color: fuchsia;
-    opacity:30%;
+    background-color: #feb1fe;
+    height: 450px;
+    width: 500px;
+    border-radius: 50px;
+  }
+#ptext2 {
+    margin: 10px;
+    text-align: left;
+    padding: 25px;
+}
+#ptext3 {
+    margin: 10px;
+    padding: 10px;
+    text-align:left;
+}
+#demobox2 {
+    position: absolute; left: 500px;
+    float: right;
+    margin: 20px;
+    background-color: #feb1fe;
+    height: 300px;
+    width: 600px;
+    border-radius: 50px;
+  }
+#ptext4 {
+    text-align:center;
+    padding: 10px;
+    margin: 10px;
+  }
+#demobox3 {
+    position: absolute; left: 1100px; top: 285px;
+    margin: 20px;
+    background-color: #feb1fe;
+    height: 425px;
+    width: 275px;
+    border-radius: 50px;
+}
+#ptext5 {
+    text-align:center;
+    padding: 10px;
+    margin: 10px;
+}
+.Lyric {
+    position: absolute; bottom: 175px; left: 40%; 
+    width: 275px;
+    height: 320px;
+    border-radius: 50%;
 }
