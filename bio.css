@@ -19,10 +19,11 @@ body {
    margin-left: 20px;
 }
 #demobox {
+    padding: .5%;
     margin: 20px;
     background-color: #feb1fe;
-    height: 450px;
-    width: 500px;
+    height: 410px;
+    width: 475px;
     border-radius: 50px;
   }
 #ptext2 {
@@ -33,28 +34,28 @@ body {
 #ptext3 {
     margin: 10px;
     padding: 10px;
-    text-align:left;
+    text-align: center;
 }
 #demobox2 {
-    position: absolute; left: 500px;
+    position: absolute; left: 300px; bottom: -35%;
     float: right;
     margin: 20px;
     background-color: #feb1fe;
     height: 300px;
-    width: 600px;
+    width: 950px;
     border-radius: 50px;
   }
 #ptext4 {
-    text-align:center;
+    text-align: center;
     padding: 10px;
-    margin: 10px;
-  }
+    margin: 15px;
+}
 #demobox3 {
-    position: absolute; left: 1100px; top: 285px;
+    position: absolute; left: 1110px; top: 285px;
     margin: 20px;
     background-color: #feb1fe;
     height: 425px;
-    width: 275px;
+    width: 295px;
     border-radius: 50px;
 }
 #ptext5 {
@@ -62,9 +63,30 @@ body {
     padding: 10px;
     margin: 10px;
 }
+#ptext6 {
+    text-align: center;
+    padding: 10px;
+}
+#ptext7 {
+    text-align: center;
+    padding: 10px;
+}
 .Lyric {
-    position: absolute; bottom: 175px; left: 40%; 
+    position: absolute; bottom: 10%; left: 38%; 
+    width: 250px;
+    height: 410px;
+    border-radius: 10px;
+    
+}
+.Dogs {
+    position: absolute; bottom: 220px; left: 58%; 
     width: 275px;
-    height: 320px;
+    height: 250px;
     border-radius: 50%;
+}
+#aboutme {
+    font-size: 60px;
+    position: relative; left: 58%; bottom: 125px;
+    color: #FC74FD;
+    font-style: italic;
 }
