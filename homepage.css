@@ -1,58 +1,51 @@
 /* Global Layout Set-up */
 * { 
-    box-sizing: content-box;
+    box-sizing: border-box;
+  }
+  body {
+    background-color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 775px;
+    width: auto;
   }
   .topnav a {
     float: left;
-    color: #f2f2f2;
+    color: #black;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
     padding: 10px 40px;
   }
+  .Artwork1 {
+    padding-bottom: 30px;
+    padding-left: 300px;
+    padding-top: 170px;
+  }
 
-.parent {
-    position: relative;
-    top: 0;
-    left: 0;
-}
-div .butterfly {
-    display: block;
-    position: absolute;
-  left: 50px;
-  top: 60px;
-  z-index: -1;
-  margin-left: auto;
-  position: left;
-  margin-right: auto;
-  width: 300px;
-  height: 550px;
-  border-radius: 10px;
-}
-.nav {
-    background-color: white;
-    padding: 20px;
-    
-}
-#intro {
-    margin-top: 15px;
-    position: absolute; 
-    left: 750px;
-    top: 250px;
-    font-size: 80px;
-    font-weight: bold; 
-    color:#555555;
-    font-style:oblique;
-}
-body {
-    background-image: url(images/pinkimage.jpeg);
-}
-#introparagraph {
-    position: relative;
-    left: 200px;
-    top: 300px;
-    font-size: 20px;
+  #coding {
+    font-size: 50px;
+    margin-top: -300px;
+    margin-left: 190px;
+    font-style: italic;
+
+  }
+
+  #design {
+    font-size: 50px;
     text-align: center;
-    color: #555555;
-}
+    margin-top: -125px;
+    margin-right: -900px;
+    font-style: italic;
+
+  }
+  .designp {
+    margin-top: -50px;
+    margin-left: 1025px;
+  }
+  .codingp {
+    margin-top: -50px;
+    margin-left: 75px;
+    padding-top: 3px;
+  }
