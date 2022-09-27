@@ -17,6 +17,9 @@
     text-decoration: none;
     font-size: 17px;
     padding: 10px 40px;
+    background-color: #eae3c9; 
+    width: 200px;
+
   }
   .Artwork1 {
     padding-bottom: 30px;
@@ -38,14 +41,38 @@
     margin-top: -125px;
     margin-right: -900px;
     font-style: italic;
-
   }
   .designp {
-    margin-top: -50px;
+    font-size: 17px;
+    margin-top: -65px;
     margin-left: 1025px;
   }
   .codingp {
+    font-size: 17px;
     margin-top: -50px;
     margin-left: 75px;
     padding-top: 3px;
   }
+.iconbar {
+  margin-left: 650px;
+  margin-top: 150px;
+
+}
+.instagram {
+  height:auto;
+  width: 50px;
+  border-radius: 50%;
+}
+.linkedin {
+  height: auto;
+  width: 50px;
+  border-radius: 50%;
+}
+.facebook {
+  height: auto;
+  width: 50px;
+  border-radius: 50%;
+}
+a:hover {
+  background-color: slategray;
+}
