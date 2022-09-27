@@ -24,7 +24,7 @@ body {
 #demobox {
     padding: .5%;
     margin-top: 30px;
-    background-color: #fddde6;
+    background-color: #FAF9F6;
     height: 410px;
     width: 475px;
     border-radius: 50px;
@@ -43,7 +43,7 @@ body {
     position: absolute; left: 300px; bottom: -32%;
     float: right;
     margin-bottom: 55px;
-    background-color: #fddde6;
+    background-color: #FAF9F6;
     height: 270px;
     width: 950px;
     border-radius: 50px;
@@ -56,7 +56,7 @@ body {
 #demobox3 {
     position: absolute; left: 1110px; top: 290px;
     margin: 20px;
-    background-color: #fddde6;
+    background-color: #FAF9F6;
     height: 350px;
     width: 295px;
     border-radius: 50px;

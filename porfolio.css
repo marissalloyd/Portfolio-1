@@ -1,0 +1,177 @@
+/* Global Layout Set-up */
+* { 
+    box-sizing: border-box;
+  }
+  .home{
+    background-color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+    width: 800px;
+  }
+  .bio {
+  background-image: url(images/pinkimage.jpeg);
+  width: 900px;
+  margin-bottom: 15%
+  }
+  .topnavhome a {
+    float: left;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    font-size: 17px;
+    background-color: #eae3c9; 
+    width: 200px; float: left;
+    text-align: center;
+    padding: 10px 40px;
+  }
+  .topnavbio a {
+    float: left;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    font-size: 17px;
+    background-color: #eae3c9; 
+    width: 200px; float: left;
+    text-align: center;
+    padding: 10px 40px;
+  }
+  #demobox {
+    padding: .5%;
+    margin-top: 30px;
+    margin-left: 30px;
+    background-color: #FAF9F6;
+    height: 410px;
+    width: 475px;
+    border-radius: 50px;
+  }
+#ptext2 {
+    margin: 10px;
+    text-align: left;
+    padding: 25px;
+}
+#ptext3 {
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+}
+#demobox2 {
+    position: absolute; left: 300px; bottom: -32%;
+    float: right;
+    margin-bottom: 55px;
+    background-color: #FAF9F6;
+    height: 270px;
+    width: 950px;
+    border-radius: 50px;
+  }
+#ptext4 {
+    text-align: center;
+    padding: 10px;
+    margin: 15px;
+}
+#demobox3 {
+    position: absolute; left: 1110px; top: 290px;
+    margin: 20px;
+    background-color: #FAF9F6;
+    height: 350px;
+    width: 295px;
+    border-radius: 50px;
+}
+#ptext5 {
+    text-align:center;
+    padding: 10px;
+    margin: 10px;
+}
+#ptext6 {
+    text-align: center;
+    padding: 10px;
+}
+#ptext7 {
+    text-align: center;
+    padding: 10px;
+}
+.Lyric {
+    position: absolute; bottom: 12%; left: 38%; 
+    width: 250px;
+    height: 410px;
+    border-radius: 10px;
+    
+}
+.Dogs {
+    position: absolute; bottom: 220px; left: 56%; 
+    width: auto;
+    height: 230px;
+    border-radius: 50%;
+}
+#aboutme {
+    background-color: white;
+    font-size: 60px;
+    position: relative; left: 95%; bottom: 150px;
+    color: #FC74FD;
+    font-style: italic;
+}
+  .banner {
+    width: 1380px;
+    margin-top: 35px;
+    margin-left: 20px;
+  }
+  .Artwork1 {
+    padding-bottom: 30px;
+    padding-left: 200px;
+    padding-top: 170px;
+  }
+
+  #coding {
+    font-size: 50px;
+    margin-top: -460px;
+    margin-left: 120px;
+    font-style: italic;
+
+  }
+
+  #design {
+    font-size: 50px;
+    text-align: center;
+    margin-top: -120px;
+    margin-right: -1200px;
+    font-style: italic;
+  }
+  .designp {
+    margin-top: -100px;
+    margin-left: 850px;
+    text-align: right;
+    position: absolute;
+  }
+  .codingp {
+    font-size: 17px;
+    margin-top: -50px;
+    margin-left: 60px;
+    padding-top: 3px;
+  }
+.iconbar {
+  margin-left: 620px;
+  margin-top: 280px;
+  padding-bottom: 10px;
+}
+.instagram {
+  height:auto;
+  width: 40px;
+  border-radius: 50%;
+}
+.linkedin {
+  height: auto;
+  width: 40px;
+  border-radius: 50%;
+}
+.facebook {
+  height: auto;
+  width: 40px;
+  border-radius: 50%;
+}
+a:hover {
+  background-color: slategray;
+}
+a:visited {
+  background-color:#eae3c9; 
+}
+
