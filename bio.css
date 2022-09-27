@@ -4,6 +4,8 @@
 }
 body {
     background-image: url(images/pinkimage.jpeg);
+    width: 900px;
+    margin-bottom: 15%
 }
 .topnav a {
     float: left;
@@ -15,13 +17,14 @@ body {
     padding: 10px 40px;
 }
 .banner {
+   width: 1380px;
    margin-top: 35px;
    margin-left: 20px;
 }
 #demobox {
     padding: .5%;
-    margin: 20px;
-    background-color: #feb1fe;
+    margin-top: 30px;
+    background-color: #fddde6;
     height: 410px;
     width: 475px;
     border-radius: 50px;
@@ -37,11 +40,11 @@ body {
     text-align: center;
 }
 #demobox2 {
-    position: absolute; left: 300px; bottom: -35%;
+    position: absolute; left: 300px; bottom: -32%;
     float: right;
-    margin: 20px;
-    background-color: #feb1fe;
-    height: 300px;
+    margin-bottom: 55px;
+    background-color: #fddde6;
+    height: 270px;
     width: 950px;
     border-radius: 50px;
   }
@@ -51,10 +54,10 @@ body {
     margin: 15px;
 }
 #demobox3 {
-    position: absolute; left: 1110px; top: 285px;
+    position: absolute; left: 1110px; top: 290px;
     margin: 20px;
-    background-color: #feb1fe;
-    height: 425px;
+    background-color: #fddde6;
+    height: 350px;
     width: 295px;
     border-radius: 50px;
 }
@@ -72,21 +75,22 @@ body {
     padding: 10px;
 }
 .Lyric {
-    position: absolute; bottom: 10%; left: 38%; 
+    position: absolute; bottom: 12%; left: 38%; 
     width: 250px;
     height: 410px;
     border-radius: 10px;
     
 }
 .Dogs {
-    position: absolute; bottom: 220px; left: 58%; 
-    width: 275px;
-    height: 250px;
+    position: absolute; bottom: 220px; left: 56%; 
+    width: auto;
+    height: 230px;
     border-radius: 50%;
 }
 #aboutme {
+    background-color: white;
     font-size: 60px;
-    position: relative; left: 58%; bottom: 125px;
+    position: relative; left: 95%; bottom: 150px;
     color: #FC74FD;
     font-style: italic;
 }
