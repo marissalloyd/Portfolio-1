@@ -4,18 +4,44 @@
   }
   .home {
     margin-top: 15px;
+    width: 800px;
     background-color: white;
     background-repeat: no-repeat;
     background-size: cover;
     height: auto;
-    width: 800px;
   }
   .bio {
   margin-top: 15px;
   background-image: url(images/pinkimage.jpeg);
-  width: 900px;
+  width: 800px;
   margin-bottom: 15%
   }
+.resume {
+  background-image: url(images/city111.jpeg);
+  background-size: 110%;
+}
+.whitebox {
+  background-color: white;
+  width: 1000px;
+  height: 700px;
+  margin-top: 50px;
+  margin-left: 220px;
+}
+.line {
+  width: 95%;
+}
+#text {
+  padding-left: 30px;
+  padding-top: 20px;
+  padding-bottom: none;
+}
+#text2 {
+  padding-left: 30px;
+  padding-right: 25px;
+}
+#skills {
+  padding-left: 30px;
+}
   .topnavhome a {
     float: left;
     color: black;
@@ -26,6 +52,9 @@
     width: 200px; float: left;
     text-align: center;
     padding: 10px 40px;
+  }
+  #seemore {
+    padding-left: 30px
   }
   .topnavbio a {
     float: left;
@@ -107,7 +136,7 @@
 #aboutme {
     background-color: white;
     font-size: 60px;
-    position: relative; left: 95%; bottom: 150px;
+    position: relative; left: 105%; bottom: 150px;
     color: #FC74FD;
     font-style: italic;
 }
@@ -175,4 +204,3 @@ a:hover {
 a:visited {
   background-color:#eae3c9; 
 }
-
