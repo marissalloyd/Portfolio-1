@@ -23,8 +23,16 @@
 .whitebox {
   background-color: white;
   width: 1000px;
-  height: 800px;
-  margin-top: 90px;
+  height: 850px;
+  padding-top: 10px;
+  margin-top: 60px;
+  margin-left: 220px;
+}
+.whitebox2 {
+  background-color: white;
+  width: 1000px;
+  height: 650px;
+  margin-top: -40px;
   margin-left: 220px;
 }
 .line {
@@ -42,18 +50,8 @@
 #skills {
   padding-left: 30px;
 }
-.navresume {
-  margin-top: 40px;
-  margin-bottom: -70px;
-  background-color: #eae3c9;
-  width: 600px;
-  padding: 10px 10px;
-  text-align: center;
-  word-spacing: 80px;
-  font-size: 17px;
-  text-decoration: none;
-}
 .topnavhome a {
+  margin-top: -20px;
   color: black;
   text-align: center;
   text-decoration: none;
@@ -74,6 +72,10 @@
   }
   #seemore {
     padding-left: 30px;
+  }
+  #references {
+    margin-left: 25px;
+    font-style: italic;
   }
   .topnavbio a {
     float: left;
@@ -221,5 +223,5 @@ a:hover {
   background-color: slategray;
 }
 a:visited {
-  background-color:#eae3c9; 
+  background-color: none; 
 }
